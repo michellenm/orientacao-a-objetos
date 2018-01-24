@@ -8,7 +8,7 @@
     <?php
       require 'Cliente.php';
       $cliente = new Cliente();
-      $cliente->nome = $_POST['nome'];
+      $cliente->nome = $_POST['nome']; // requesição do tipo post pega dados
       $cliente->email = $_POST['email'];
       ?>
     <h1>Cliente</h1>
